@@ -10,6 +10,7 @@ func main() {
 
 	sender.SendMessage("hello")
 	sender.SendMessageNTimes("good", 5)
+	sender.SayBye()
 	fmt.Println("hello")
 
 }

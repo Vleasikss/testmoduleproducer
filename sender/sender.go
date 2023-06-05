@@ -19,6 +19,7 @@ func SayHello() {
 	fmt.Println("hello")
 }
 
-func sayBye()  {
+func SayBye() {
 	fmt.Println("bye")
+	fmt.Println("bye bye")
 }
