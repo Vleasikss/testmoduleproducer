@@ -9,6 +9,7 @@ import (
 func main() {
 
 	sender.SendMessage("hello")
+	sender.SendMessageNTimes("good", 5)
 	fmt.Println("hello")
 
 }
