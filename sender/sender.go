@@ -15,6 +15,6 @@ func SendMessageNTimes(msg string, n int) {
 	fmt.Println("END!")
 }
 
-func sayHello() {
+func SayHello() {
 	fmt.Println("hello")
 }
