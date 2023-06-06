@@ -8,8 +8,9 @@ To publish new module changes:
 ```
 In case if you want to change MAJOR version, make sure you passed version at the end of module.
 
-For example: module github.com/Vleasikss/testmoduleproducer/v5
-Every major version (starting from 2nd) must be a separate module.
+If you are using a version that is v2 or higher you must include the version number into the import path of your package, for example github.com/awesomerepo/pkg/v2. You will need to use the version in the import path for both go.mod imports (require github.com/awesomerepo/pkg/v2 v2.0.0), when importing the package through command line (go get github.com/awesomerepo/pkg/v2@v2.0.0) and when importing your package in your source files (import "github.com/awesomerepo/pkg/v2 v2.0.0")
+
+If the module version is v0 or v1 do not include it in the import path of your package
 ```
 
 See also:
